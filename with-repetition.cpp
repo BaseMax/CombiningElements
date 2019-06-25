@@ -13,8 +13,8 @@
 using namespace std;
 
 int main() {
-	string values[length];
 	const int length=6;
+	string values[length];
 	cout << "Enter values:\n";
 	for(int index = 0; index < length;index++) {
 		cin >> values[index];			// Get a word
